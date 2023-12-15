@@ -1,4 +1,6 @@
 /*  Hi! your going to write styles here in the next couple activities. */
+body {
+    font-family: 'Open Sans', sans-serif;}
 header {
 height:250px;
 max-height: 500px;
@@ -8,10 +10,39 @@ background-repeat:no-repeat;
 background-position:bottom }
 #pageTopic {
     text-align:center;
+    font-size:14px;
+    font-weight:900;
 }
+<!-- Primary Colors-->
 #colorContainer {
 display:inline-block;
 margin:15px;
+}
+.darkBlue{
+    background-color:#333366;
+}
+.darkGrey{
+    background-color:#545454;
+}
+.lightGrey{
+    background-color: #e3e3e3;
+}
+.white {
+    background-color:#ffffff
+}
+.lightBlue {
+    background-color:#12A0
+}
+.red {
+    background-color: #f84848;
+}
+.orange {background-color: #fc7705
+}
+.lightBlue {
+    background-color: #13a0f6;
+}
+.lightGreen {
+    background-color: #8abe48;
 }
 .swatch{
     height: 200px;
@@ -26,15 +57,55 @@ margin:15px;
     border-bottom-left-radius:7px;
     border-bottom-right-radius:7px;
 }
-type_container{
+.type_container{
     display:inline-block;
     margin:20px;
+    
 }
-button{
+.large {
+    font-size:66px;
+    margin-bottom:15px;
+    margin-top:0;
+}
+
+.button{
     display:inline-block;
     padding:15px;
     margin:15px;
     width: 150px;
     text-align:center;
     color:white;
+}
+.Primary {
+    background-color: #2b459a;
+}
+.success {
+    background-color:#8abe48;
+}
+.danger {
+    background-color: #f84848;
+}
+.warning {
+    background-color: #fc7785;
+}
+.info {
+    background-color: #0099fa;
+}
+.primaryActive {
+    background-color: #3a66b7;
+}
+.successActive {
+    background-color: #668c35;
+}
+.dangerActive {
+    background-color: #ad4848;
+}
+.warningActive {
+    background-color: #ba7a43;
+}
+.infoActive {
+    background-color: #4386ba;
+}
+.sectionHead {
+    border-bottom: 8px solid #dddddd;
 }
