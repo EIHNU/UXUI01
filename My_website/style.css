@@ -106,13 +106,13 @@ font-size: 26px;
 .Primary {
     background-color: #2b459a;
 }
-.success {
+.Success {
     background-color:#8abe48;
 }
-.danger {
+.Danger {
     background-color: #f84848;
 }
-.warning {
+.Warning {
     background-color: #fc7785;
 }
 .info {
