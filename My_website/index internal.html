@@ -6,34 +6,46 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
   <link href="My_website/style.css" rel="stylesheet" type="text/css">
   <style>
-    body {
-    font-family: 'Open Sans', sans-serif;
-  }
-    header {
+   body {
+    font-family: 'Open Sans', sans-serif;}
+.header {
 height:250px;
 max-height: 500px;
 background-image: url(../images/upsBackground.png);
 background-size:cover;
 background-repeat:no-repeat;
 background-position:bottom }
-
 #pageTopic {
     text-align:center;
-    font-size:14px;
+    font-size: 14px;
     font-weight:900;
 }
-<!-- Primary Colors-->
-#colorContainer {
+/*Primary Colors*/
+.colorContainer {
 display:inline-block;
 margin:15px;
 }
+.swatch{
+    height: 200px;
+    width: 170px;
+    border:1px solid black;
+}
+.hexCode{
+    padding:15px;
+    text-align:center;
+    border:1px solid black;
+    border-top:none;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;
+}
+
 .darkBlue {
     background-color:#333366;
 }
-.darkGrey {
+.darkGrey{
     background-color:#545454;
 }
-.lightGrey {
+.lightGrey{
     background-color: #e3e3e3;
 }
 .white {
@@ -45,8 +57,7 @@ margin:15px;
 .red {
     background-color: #f84848;
 }
-.orange {
-    background-color: #fc7705
+.orange {background-color: #fc7705
 }
 .lightBlue {
     background-color: #13a0f6;
@@ -54,32 +65,19 @@ margin:15px;
 .lightGreen {
     background-color: #8abe48;
 }
-.swatch {
-    height: 200px;
-    width: 170px;
-    border:1px solid black;
-}
-.hexCode {
-    padding:15px;
-    text-align:center;
-    border:1px solid black;
-    border-top:none;
-    border-bottom-left-radius:7px;
-    border-bottom-right-radius:7px;
-}
-<!--Typography-->
-.type_container{
+
+/*Typography*/
+.type_container {
     display:inline-block;
-    margin:20px;
-    
+    margin: 20px;
 }
 .large {
-    font-size:66px;
-    margin-bottom:15px;
-    margin-top:0;
+    font-size: 66px;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 .light {
-    font-weight:100;
+    font-weight: 100;
 }
 .regular {
     font-weight: 500;
@@ -102,8 +100,8 @@ margin:15px;
 .typography h4 {
 font-size: 26px;
 }
-<!--UI Elements>
-.button{
+/*UI Elements*/
+.button {
     display:inline-block;
     padding:15px;
     margin:15px;
@@ -115,13 +113,13 @@ font-size: 26px;
 .Primary {
     background-color: #2b459a;
 }
-.success {
+.Success {
     background-color:#8abe48;
 }
-.danger {
+.Danger {
     background-color: #f84848;
 }
-.warning {
+.Warning {
     background-color: #fc7785;
 }
 .info {
