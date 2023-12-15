@@ -57,6 +57,7 @@ margin:15px;
     border-bottom-left-radius:7px;
     border-bottom-right-radius:7px;
 }
+<!--Typography-->
 .type_container{
     display:inline-block;
     margin:20px;
@@ -67,7 +68,31 @@ margin:15px;
     margin-bottom:15px;
     margin-top:0;
 }
-
+.light {
+    font-weight:100;
+}
+.regular {
+    font-weight: 500;
+}
+.bold {
+    font-weight: 700;
+}
+.typography h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+.typography h2 {
+    font-weight: 700;
+    font-size: 42px;
+}
+.typography h3 {
+    font-size: 34px;
+    font-weight: 700;
+}
+.typography h4 {
+font-size: 26px;
+}
+<!--UI Elements>
 .button{
     display:inline-block;
     padding:15px;
@@ -75,6 +100,7 @@ margin:15px;
     width: 150px;
     text-align:center;
     color:white;
+    font-size:14px;
 }
 .Primary {
     background-color: #2b459a;
